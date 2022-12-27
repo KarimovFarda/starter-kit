@@ -1,0 +1,23 @@
+/*
+woff -> format("woff")
+woff2 -> format("woff2")
+otf -> format("opentype")
+ttf -> format("truetype")
+.eot?#iefix -> format("embedded-opentype")
+*/
+
+@font-face {
+    font-family: "Firasans";
+    src: local('FiraSans'), url("FiraSans-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+};
+
+@font-face {
+    font-family: "Firasans";
+    src: url("");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+};
